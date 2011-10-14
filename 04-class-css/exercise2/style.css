@@ -50,3 +50,142 @@ table {
 	border-spacing: 0;
 }
 
+body { 
+	width:960px; 
+	margin:0 auto; 
+	display:block; 
+}
+
+div#site-wrapper {
+	width: 100%;
+	height: 125px;
+	background-color: rgb(236,242,210);
+}
+
+header#site-header h1 {
+	background: url(images/logo.png) no-repeat;
+	height: 120px;
+	width: 450px;
+	position: relative;
+	padding-left: 
+	
+}
+
+header#site-header nav {
+	font-family: arial;
+	font-size: .8em; 
+	float: right;
+	top: 25px;
+	right: 0;
+	width: 200px;
+	color: rgb(116,73,24)
+	
+}
+
+div#menu-wrapper {
+	background-color: rgb(116,73,24);
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+nav#main-menu ul li {
+	display: inline;
+	width: 100%;
+}
+
+nav#main-menu ul li a {
+	font-family: arial;
+	font-size: 1.3em;
+	color: white;
+	margin-right: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	
+}
+
+nav#main-menu ul li a:hover {
+	color:rgb(183,200,80);
+}
+
+div#content-wrapper {
+	float: left;
+	height:100%;
+	clear: both;
+	margin-bottom: 75px;
+}
+
+div#content-wrapper div#content article {
+	float: left;
+	width: 500px;
+	margin-right: 200px
+	
+}
+
+div#content-wrapper aside#sidebar {
+	float: right;
+	width: 160px;	
+}
+
+div#content-wrapper aside#sidebar a {
+	text-decoration: none;
+	font-family: arial;
+	color:rgb(116,73,24);
+	font-size: 1em;
+}
+
+div#footer-wrapper footer#site-footer {
+	width: 960px;
+	height: 150px;
+	float: left;
+	background-color: rgb(116,73,24);
+}
+
+div#footer-wrapper footer#site-footer section#footer-contact {
+	width: 150px;
+	float: left;
+}
+
+
+
+div#footer-wrapper footer#site-footer section#footer-follow {
+	float: right;
+}
+
+section#footer-follow h1, section#footer-contact h1 {
+	color: rgb(205,194,171);
+}
+
+div#footer-wrapper footer#site-footer section#footer-follow ul li {
+	display: inline;
+	width: 5px;
+	height: 5px;
+}
+
+h1 {
+	font-family: arial;
+	font-size: 1.2em;
+	color: rgb(116,73,24);	
+}
+
+h2 {
+	font-family: arial;
+	font-size: 1.3em;
+	font-weight: bold;
+	color: rgb(116,73,24);
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+p {
+	font-family: arial;
+	font-size: .8em;
+	line-height: 1.2em;
+	color: rgb(159,160,161)
+}
+
+div#footer-wrapper footer#site-footer section#footer-contact p {
+	font-family: arial; 
+	font-size: .6em;
+	color: #ffffff;
+	line-height: 1.2em;
+}
