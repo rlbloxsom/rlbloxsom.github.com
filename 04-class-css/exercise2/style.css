@@ -67,8 +67,6 @@ header#site-header h1 {
 	height: 120px;
 	width: 450px;
 	position: relative;
-	padding-left: 
-	
 }
 
 header#site-header nav {
@@ -78,8 +76,6 @@ header#site-header nav {
 	top: 25px;
 	right: 0;
 	width: 200px;
-	color: rgb(116,73,24)
-	
 }
 
 div#menu-wrapper {
@@ -100,7 +96,6 @@ nav#main-menu ul li a {
 	margin-right: 20px;
 	text-transform: uppercase;
 	text-decoration: none;
-	
 }
 
 nav#main-menu ul li a:hover {
@@ -117,8 +112,7 @@ div#content-wrapper {
 div#content-wrapper div#content article {
 	float: left;
 	width: 500px;
-	margin-right: 200px
-	
+	margin-right: 200px;
 }
 
 div#content-wrapper aside#sidebar {
@@ -129,7 +123,7 @@ div#content-wrapper aside#sidebar {
 div#content-wrapper aside#sidebar a {
 	text-decoration: none;
 	font-family: arial;
-	color:rgb(116,73,24);
+	color: rgb(116,73,24);
 	font-size: 1em;
 }
 
@@ -180,7 +174,7 @@ p {
 	font-family: arial;
 	font-size: .8em;
 	line-height: 1.2em;
-	color: rgb(159,160,161)
+	color: rgb(159,160,161);
 }
 
 div#footer-wrapper footer#site-footer section#footer-contact p {
