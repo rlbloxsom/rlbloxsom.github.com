@@ -104,9 +104,10 @@ img {
 
 p {
 	font-family: times;
-	font-size: inherit;
+	font-size: .9em;
 	margin:10px;
 	width:460px;
+	line-height: 1.3em;
 }
 
 #main-nav ul {
@@ -142,14 +143,13 @@ nav#main-nav ul li a {
 	
 div {
 	clear:both;
-	width:100%;
 	border-top:5px solid black;
 }
 
 footer {
 	font-size:.9em;
-	padding:10px;
-	margin:15px;
+	padding: 10px 0 10px 0;
+	margin: 15px 9px 15px 9px;
 }
 
 footer.copyright {
