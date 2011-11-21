@@ -48,7 +48,6 @@ table {
 	border-spacing: 0;
 }
 
-
 /* Center Content */
 
 .centered { 
@@ -71,19 +70,62 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-header#main-site-header h1 a { 
-	background:url(images/dogvscat-logo.gif);
-	width:445px;
-	height:95px;
-	display:block;
-	top center no-repeat; 
-	text-indent:-9999px;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:15px;
-}
+@font-face { font-family: league-gothic; src: url('league-gothic.otf'); } @font-face { font-family: lobster; font-weight: bold; src: url('lobster.otf'); }
+
 
 body { width:960px; margin:0 auto; display:block; }
+
+header#site-header h1#site-logo {
+    width:960px;
+    margin:0 auto;
+    height:120px;
+    position:relative;
+}
+
+header#site-header h1#site-logo a {
+    text-decoration:none;
+    margin:0 auto;
+}
+
+p.league1,p.league2,p.lobster,div.border {
+    display:inline;
+    position:absolute;
+}
+
+p.league1 {
+    font-family:league-gothic, arial, sans;
+    font-size:4em;
+    color:black;
+    top:0;
+    left:240px;
+}
+
+p.league2 {
+    top:0;
+    right:-30px;
+    font-family:league-gothic, arial, sans;
+    font-size:4em;
+    color:black;
+}
+
+p.lobster {
+    font-family:lobster, georgia, serial;
+    font-size:3em;
+    color:lightgrey;
+    width:50px;
+    top:8px;
+    left:425px;
+}
+
+div.border {
+    border-top:2px solid lightgrey;
+    border-bottom:2px solid lightgrey;
+    width:80px;
+    padding-top:35px;
+    padding-bottom:35px;
+    top:45px;
+    left:428px;
+}
 
 h1 { 
 	font-family:times; 
