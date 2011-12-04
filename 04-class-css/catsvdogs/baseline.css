@@ -70,7 +70,22 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-@font-face { font-family: league-gothic; src: url('league-gothic.otf'); } @font-face { font-family: lobster; font-weight: bold; src: url('lobster.otf'); }
+@font-face {
+	font-family: "league-gothic";
+	src: url("league-gothic.eot");
+	src: local("☺"),
+		url("league-gothic.woff") format("woff"),
+		url("league-gothic.otf") format("opentype"),
+		url("league-gothic.svg") format("svg");
+}
+@font-face {
+	font-family: "lobster";
+	src: url("lobster.eot");
+	src: local("☺"),
+		url("lobster.woff") format("woff"),
+		url("lobster.otf") format("opentype"),
+		url("lobster.svg") format("svg");
+}
 
 
 body { width:960px; margin:0 auto; display:block; }
