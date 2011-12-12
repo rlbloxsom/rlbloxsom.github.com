@@ -90,7 +90,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">#</span>/<span id="total">#</span>]
+ 		[<span id="current">1</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>What I find most rewarding is when you can really connect with a project and feel passionate about the message. This happened for me with this project, I wanted to depict how the media distorts actual events to create drama all in the name of boosting ratings.</p>

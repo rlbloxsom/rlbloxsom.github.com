@@ -98,7 +98,7 @@
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">#</span>/<span id="total">#</span>]
+ 		[<span id="current">1</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>Type is beautiful and so is nature. Using the gorgeous photography of Nick Brandt, I created a short accordion fold book juxtaposing typography and the places where it appears in his photography.</p>

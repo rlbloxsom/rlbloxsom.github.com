@@ -33,6 +33,39 @@ $(document).ready(function() {
 */
 
 	
+	var imgNumber = 1;
+	
+	$('a#next').click(
+	
+	    function(){
+	    
+	        imgNumber += 1;
+	        
+	        if (imgNumber > images) {
+	            
+	                imgNumber = 1;
+	            
+	            }
+	        
+	        $('span#current').text(imgNumber);
+	    
+	    });	
+	    
+	$('a#prev').click(
+	
+	    function(){
+	    
+	        imgNumber -= 1;
+	        
+	        if (imgNumber < 1) {
+	            
+	                imgNumber = images;
+	            
+	            }
+	        
+	        $('span#current').text(imgNumber);
+	    
+	    });	
     
     
       
