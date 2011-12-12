@@ -93,7 +93,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">#</span>/<span id="total">#</span>]
+ 		[<span id="current">1</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>CityGauge is a prototypical app being developed by Sasaki Associates in partnership with Somerville, MA to help engage communities in the master planning process. I worked with Sasaki Strategies to develop an app that engaged the community more by making them aware of community activities and utilizing the public to crowd source local problems.</p>

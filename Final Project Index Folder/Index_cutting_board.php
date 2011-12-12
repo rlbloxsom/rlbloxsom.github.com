@@ -94,7 +94,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">#</span>/<span id="total">#</span>]
+ 		[<span id="current">1</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>Cutting Board is a travel, food and culture magazine where each issue focuses on a particular location. Issue one is about England, issue two is about a fly away trip to Ireland.</p>
