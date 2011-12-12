@@ -1,45 +1,40 @@
-function loadMenu(){    
-		if (screen.width <= 600) {
-			$("section.content-description,div#menu-wrapper").hide(0);
-        	$("a#hide").hide(0);
-        	$("a#show").show(0); }
-    }
 
+   
 $(document).ready(function() {
 
-    $('#bgimage').cycle({ 
-    	fx:     'fade', 
-   		speed:  'fast', 
-    	timeout: 0, 
-    	next:   '#next', 
-    	prev:   '#prev' 
-    	
-	});
-	
-      
-  /*  function setimage(num){
-        $('span#current').html(num + ".jpg");
-    };
+    
+    function setimage(num){
+        $('body').css('background-image',"url('portfolioimages/" + base + "/bg" + num + ".jpg')");
+        
+    $('span#current').html(num);
+
+    }
     
     function nextimage(){
         position +=1;
         if (position >images){ position =1; }
+        
+        setimage(position);
     }
 
     function previmage(){
         position -=1;
         if (position <1){ position =images; }
+        
+        setimage(position);
     }
-*/
+    
+    setimage(position);
 
-	
+    $('span#total').html(images);
+    
+    $('a#next').click(nextimage);
+    $('a#prev').click(previmage);
     
     
-      
-	var n = $("#bgimage").length;
-		$('span#total').html(images);
-	
-	$("a#hide").click(function(){
+    
+    
+    $("a#hide").click(function(){
         $("section.content-description,div#menu-wrapper").hide(700);
         $("a#hide").hide(0);
         $("a#show").show(0);

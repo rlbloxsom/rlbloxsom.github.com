@@ -88,7 +88,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">1</span>/<span id="total">#</span>]
+ 		[<span id="current">#</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>This assignment was an exercise in grids and typographic systems. We had to come up with a solely typographic design for a recipe card that worked for extremely short recipes and extremely long ones.</p>

@@ -88,7 +88,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">1</span>/<span id="total">#</span>]
+ 		[<span id="current">#</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>I recorded data and created a poster for a large set of data within the move. I recorded sound, angle, screen cuts and transitions for the last 5 minutes of 3 sections that the movie was divided into. We were then designed to create an interface that would allow us to explore our chosen data. My interface is a tool used to compare multiple sections of the movie at a time, controlling almost all aspects of playback and having the ability to record notes based on time stamps.</p>

@@ -88,7 +88,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">1</span>/<span id="total">#</span>]
+ 		[<span id="current">#</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>Like the Media and Politics poster, I was very passionate about this project. The assignment was to select something that we thought was unnatural and create a 12 month calendar. My subject was cruelty to animals, speaking about trophy hunting, shark finning and the ivory harvest.</p>

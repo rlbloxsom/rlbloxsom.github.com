@@ -85,7 +85,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">1</span>/<span id="total">#</span>]
+ 		[<span id="current">#</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>Prior to receiving this project, I had injured myself and was dealing with a lot of pill bottles and was really aggravated by how poorly the bottles were designed, in no way do they store well, horizontally or vertically. After doing some form research and exploration, I was found the coke bottle redesign by Andrew Kim and used a similar physical structure to base an athletically inspired label and package around.</p>

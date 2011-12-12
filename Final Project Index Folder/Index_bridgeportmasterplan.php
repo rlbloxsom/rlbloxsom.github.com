@@ -89,7 +89,7 @@ include "incl/head_tag.php";
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
- 		[<span id="current">1</span>/<span id="total">#</span>]
+ 		[<span id="current">#</span>/<span id="total">#</span>]
  	</nav>
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>Sasaki was approached by the City of Bridgeport, CT to create a masterplan for the future of the cities parks. The graphics department was pulled in to develop an identity and brand this masterplan, in the industry, this is a first and since, has been crucial in many planning projects.</p>
