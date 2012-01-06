@@ -20,14 +20,14 @@
 
 <body> <!--contain image-->
 	<div id='bgimage'>
-		<img src="portfolioimages/cuttingboard/bg1.jpg" style="top: 0px; left: 0px; opacity: 1; z-index: -1;">
-		<img src="portfolioimages/cuttingboard/bg2.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/cuttingboard/bg3.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/cuttingboard/bg4.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/cuttingboard/bg5.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/cuttingboard/bg6.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/cuttingboard/bg7.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/cuttingboard/bg8.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
+		<img src="portfolioimages/cuttingboard/bg1.jpg" style="top: 0px; left: 0px; z-index: -1;">
+		<img src="portfolioimages/cuttingboard/bg2.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
+		<img src="portfolioimages/cuttingboard/bg3.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
+		<img src="portfolioimages/cuttingboard/bg4.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
+		<img src="portfolioimages/cuttingboard/bg5.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
+		<img src="portfolioimages/cuttingboard/bg6.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
+		<img src="portfolioimages/cuttingboard/bg7.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
+		<img src="portfolioimages/cuttingboard/bg8.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
 
 	</div>
 

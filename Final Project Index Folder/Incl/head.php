@@ -21,7 +21,7 @@
 		<h1 id='site-logo'>
 			<a href='index.php'>
 				<p></p>
-				<p>EQUAL</p>
+				<p>EQUALS</p>
 				<p>=</p>
 			</a>
 		</h1>

@@ -74,15 +74,21 @@ html[xmlns] .clearfix { display: block; }
 /* End of reset */
 
 body {
-	background-color:rgb(240,0,0);
+	background-color:black;
 
 }
 
+div#bgimage {
+    
+}
+
 img {
-	position:absolute;
 	max-width:100%;
 	top:0;
 	left:0;
+	opacity:0.2;
+    filter:alpha(opacity=20); /* For IE8 and earlier */
+	
 }
 
 div#site-wrapper {

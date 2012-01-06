@@ -7,6 +7,8 @@ $(document).ready(function() {
     //alert(rand);
     
     $('body').css('background-image',"url('images/bgimages/bg" + rand + ".jpg')")
+    
+    
 
     
 });

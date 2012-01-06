@@ -90,6 +90,7 @@ include "incl/head_tag.php";
  	<section class="content-description" class='clearfix'>
  		<p class='copy'>Prior to receiving this project, I had injured myself and was dealing with a lot of pill bottles and was really aggravated by how poorly the bottles were designed, in no way do they store well, horizontally or vertically. After doing some form research and exploration, I was found the coke bottle redesign by Andrew Kim and used a similar physical structure to base an athletically inspired label and package around.</p>
 		<p class='copy'>The range of products would be marketed to and contain information that athletes would find helpful in maintaining or returning to peak physical fitness.</p>
+		<p class='copy'>Andrew Kim's Coke Bottle-<a href='http://www.minimallyminimal.com/journal/2010/3/15/eco-coke-bottle-design.html'>Link</a></p>
 		<p class='share'>Share on <a href='#'>[FB]</a><a href='http://twitter.com/home?status=Look at this project by Boston-based designer, Ricky Bloxsom: www.rickybloxsom.com/vitamin'> [TW]</a><a  href="mailto:?subject=Vitamin%20Packaging%20by%20Ricky%20Bloxsom&amp;body=I%20found%20this%20on%20the%20website%20of%20Boston-designer,%20Ricky%20Bloxsom%20and%20I%20thought%20that%20you%20might%20like%20to%20see%20it.%20www.rickybloxsom.com/vitamin%20—%20All%20work%20©%20Ricky%20Bloxsom%20—%20www.rickybloxsom.com" > [Email]</a></p>
 	</section>
 	

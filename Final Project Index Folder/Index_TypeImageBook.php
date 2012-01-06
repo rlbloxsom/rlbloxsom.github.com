@@ -22,10 +22,12 @@
 
 <body> <!--contain image-->
 
+<div id='colortest'>
 <div id='bgimage'>
 	<img src="portfolioimages/typeimagephotos/bg1.jpg" style="top: 0px; left: 0px; opacity: 1; z-index: -1;">
 	<img src="portfolioimages/typeimagephotos/bg2.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
 	<img src="portfolioimages/typeimagephotos/bg3.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
+</div>
 </div>
 
 <div id='site-wrapper'>

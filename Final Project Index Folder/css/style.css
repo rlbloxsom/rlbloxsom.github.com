@@ -76,7 +76,7 @@ html[xmlns] .clearfix { display: block; }
 
 /*begin base CSS*/
 body {
-    background-color:rgb(240,0,0) ; 
+    background-color:black; 
     background-image:   ;
     background-attachment: fixed;
     background-repeat: no-repeat;
