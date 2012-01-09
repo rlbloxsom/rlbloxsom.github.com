@@ -30,23 +30,9 @@
 </div>
 </div>
 
-<div id='site-wrapper'>
-	<header id='main-site-header'>
-		<h1 id='site-logo'>
-			<a href='index.php'>
-				<p></p>
-				<p>EQUALS</p>
-				<p>=</p>
-			</a>
-		</h1>
-	</header>
-		
-	<div id='menu-wrapper' class='clearfix'>
-		<section class='contact-info'>
-				<p>w:617.555.5555</p>
-				<p>c:860.459.8124</p>
-				<p>e:studio@rickybloxsom.com</p>
-		</section>
+<?php
+include "incl/head_tag.php";
+?>
 
 	<nav id='main-nav'>
   	  	<ul>
@@ -94,9 +80,8 @@
 		<h2>Typography 2</h2>
 		<h1>Date:</h1>
 		<h2>March 2009</h2>
- 		
-
  	</section>
+ 	
  	<nav class='project-nav'>
  		<a id="prev" href="#"><u>Prev</u>(<b>◀</b>)</a> / 
  		<a id="next" href="#"><u>Next</u>(<b>▶</b>)</a> 
