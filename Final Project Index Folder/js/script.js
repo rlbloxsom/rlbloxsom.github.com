@@ -8,7 +8,7 @@ $(document).ready(function() {
     
     $('body').css('background-image',"url('images/bgimages/bg" + rand + ".jpg')")
     
+    $("section#about-me, div#contact-info").show(700);    
     
-
     
 });

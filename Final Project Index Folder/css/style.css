@@ -63,45 +63,7 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 /* End of reset */
-
-
 /*begin base CSS*/
-
-@font-face {
-    font-family: 'LektonRegular';
-    src: url('Lekton-Regular-webfont.eot');
-    src: url('Lekton-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Lekton-Regular-webfont.woff') format('woff'),
-         url('Lekton-Regular-webfont.ttf') format('truetype'),
-         url('Lekton-Regular-webfont.svg#LektonRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'LektonItalic';
-    src: url('Lekton-Italic-webfont.eot');
-    src: url('Lekton-Italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Lekton-Italic-webfont.woff') format('woff'),
-         url('Lekton-Italic-webfont.ttf') format('truetype'),
-         url('Lekton-Italic-webfont.svg#LektonItalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'LektonBold';
-    src: url('Lekton-Bold-webfont.eot');
-    src: url('Lekton-Bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Lekton-Bold-webfont.woff') format('woff'),
-         url('Lekton-Bold-webfont.ttf') format('truetype'),
-         url('Lekton-Bold-webfont.svg#LektonBold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 @font-face {
     font-family: 'Inconsolata';
@@ -126,7 +88,6 @@ html[xmlns] .clearfix { display: block; }
     	margin-left:1%;
     	margin-top:1%;
     	max-width:960px;
-    	min-width:360px;
 	}
 
 	img {
@@ -142,7 +103,7 @@ html[xmlns] .clearfix { display: block; }
 		text-decoration:none;
 		word-spacing:-.12em;
 		line-height:1.18em;
-		font-size:1.02em;
+		font-size:1.025em;
 	}
 
 	a:hover {
@@ -175,10 +136,14 @@ html[xmlns] .clearfix { display: block; }
 
 /*HEADER CONTENT*/
 
-	header#main-site-header a p {
+	header#main-site-header {
 		margin-bottom:.5%;
 		border-bottom:2px solid yellow;
 		width:30%;
+	}
+	
+	header#main-site-header h1#site-logo a p {
+		text-decoration:none;
 	}
 
 	section.contact-info {
@@ -207,11 +172,25 @@ html[xmlns] .clearfix { display: block; }
 		margin-bottom:3%;	
 	}
 		
+/*CONTACT PAGE BODY CONTENT*/
+	div#contact-info {
+		display:none;
+		margin:0 2% 0 0;
+		width:50%;
+		float:left;
+	}
+	
+	section#contact-content {
+		margin:2% 0 0 0;
+	}
+
+
 /*ABOUT PAGE BODY CONTENT*/
 
 	section#about-me {
 		width:50%;
 		float:left;
+		display:none;
 	}
 	
 	p#resume {
@@ -228,50 +207,26 @@ html[xmlns] .clearfix { display: block; }
 		font-style:italic;
 	}
 
-/*CONTACT FORM CONTENT*/
-	label { 
-    	display:block;
-    	font-size:1em;
-    	line-height:1.6em;
-    	font-family:courier new, arial, georgia;
-    	color:white;
-	}
-
-	input, textarea { 
-    	display:block; 
-    	width:350px;
-	}
-    
-	div#contact-form {
-    	width:100%;
-    	height:100%;
-	}
-    
-	textarea { 
-    	height:10em;
-	}
-
-	div#contact-form {
-	}
-
-
 /*MEDIA QUERIES*/
 
 @media all and (max-width:768px) {
 
 /*HEADER CONTENT*/
 
-	header#main-site-header h1#site-logo a p {
+	header#main-site-header{
 		margin-bottom:.5%;
-		border-bottom:1px solid yellow;
+		border-bottom:2px solid yellow;
 		width:99%;
+	}
+	
+	header#main-site-header h1#site-logo a p {
 		text-decoration:none;
 	}
 
 /*BODY AND OVERALL CONTENT SETTINGS*/
 
 	div#site-wrapper {
-    	margin:3% 3% 3% 3% ;
+    	margin:3% 3% 3% 3%;
 	}
 	
 	.hide {
@@ -284,27 +239,44 @@ html[xmlns] .clearfix { display: block; }
 		text-decoration:none;
 		word-spacing:-.12em;
 		line-height:1.2em;
-		font-size:.99em;
+		font-size:1em;
+	}
+	
+	a:hover {
+		background-color:yellow;
+		color:black;
+		border-radius:8px;
+		padding:0 1.2% 0 1.2%;
+		margin:0 .2% .2% 0;
+	}
+	
+	a.no-hover {
+		border-radius:0px;
+		padding:0 0 0 0%;
+		margin:0 0 0 0;
+		background-color:transparent;
+		color:white;
 	}
 
 /*MENU CONTENT*/	
 	
 	div#menu-wrapper {
 		width:99%;
-		margin:0 0 3% 0;
+		margin:0 0 0 0;
 	}
 
 	nav#main-nav {
-		margin-bottom:3%;
+		margin-bottom:1%;
 	}
 	
 	nav.project-list ul li {
 		padding:0 1% 0 0;
 		margin:0 .2% .2% 0;
+		float:left;
 	}
 
 	section.contact-info {
-		margin-bottom:3%;	
+		margin-bottom:1%;	
 	}
 
 /*BODY CONTENT*/	
@@ -314,5 +286,19 @@ html[xmlns] .clearfix { display: block; }
 		float:none;
 	}
 	
+	div#contact-info {
+		width:100%;
+		float:none;
+	}
 	
+	
+}
+
+@media all and (max-width:481px) {
+/*MENU CONTENT*/	
+
+	nav.project-list ul li {
+		float:none;
+	}	
+
 }

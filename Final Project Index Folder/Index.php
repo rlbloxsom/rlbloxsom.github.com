@@ -21,13 +21,15 @@ include "incl/head.php";
 				<li><a href='Index_commonground.php'>Common Ground 12 Branding</a></li>
 				<li><a href='Index_runlola.php'>Run Lola Run Interface and Taxonomy</a></li>
 				<li><a href='Index_citygauge.php'>CityGauge Interface</a></li>
-				<li><a href='Index_bridgeportmasterplan.php'>Bridgeport Parks Masterplan Branding</a></li>
+				<li><a href='Index_bridgeportmasterplan.php'>Bridgeport Parks Masterplan</a></li>
 				<li><a href='Index_cutting_board.php'>Cutting Board Magazine</a></li>
 			</ul>
 		</nav>
 	</section>
 
 </div> <!--End Menu Wrapper-->
+
+
 
 <?php
 include "incl/closehtml.php";
