@@ -72,36 +72,106 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 /* End of reset */
+@font-face {
+    font-family: 'LektonRegular';
+    src: url('Lekton-Regular-webfont.eot');
+    src: url('Lekton-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lekton-Regular-webfont.woff') format('woff'),
+         url('Lekton-Regular-webfont.ttf') format('truetype'),
+         url('Lekton-Regular-webfont.svg#LektonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LektonItalic';
+    src: url('Lekton-Italic-webfont.eot');
+    src: url('Lekton-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lekton-Italic-webfont.woff') format('woff'),
+         url('Lekton-Italic-webfont.ttf') format('truetype'),
+         url('Lekton-Italic-webfont.svg#LektonItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'LektonBold';
+    src: url('Lekton-Bold-webfont.eot');
+    src: url('Lekton-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lekton-Bold-webfont.woff') format('woff'),
+         url('Lekton-Bold-webfont.ttf') format('truetype'),
+         url('Lekton-Bold-webfont.svg#LektonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('inconsolata.otf');
+    font-weight: normal;
+    font-style: normal;
+}
 
 body {
 	background-color:black;
-
-}
-
-div#bgimage {
-    
 }
 
 img {
-	max-width:100%;
 	top:0;
 	left:0;
-	opacity:0.2;
-    filter:alpha(opacity=20); /* For IE8 and earlier */
-	
+	opacity:.3;
 }
 
+
+/*NEW BACKGROUND IMAGE CSS*/
+
+/*Base bgimage styles necessary for layout*/
+#bgimage {
+	position: relative;
+	}
+	
+#bgimage img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: -1;
+	display: none;
+	}
+
+/*First image has class of first, and its first, so show it*/
+/*This class won't matter once JQuery kicks in*/
+#bgimage img.first {
+	display: block;
+	}
+
+/*If #bgimage has class of info-on, img opacity is 0.6*/
+/*When the hide and show button is clicked, */
+/*the appropriate classes are swapped via JQuery*/
+#bgimage.info-on img {
+	opacity: 0.6;
+	}	
+
+/*If #bgimage has class of info-off, img opacity is 1*/
+#bgimage.info-off img {
+	opacity: 1;
+	}
+	
+
+/*END NEW BACKGROUND IMAGE CSS*/
+
 div#site-wrapper {
-    margin-left:1.25%;
-    padding-top:1.25%;
-    /*position:fixed;*/
+    margin-left:15px;
+    padding-top:23px;
     max-width:1280px;
     min-width:768px;
 }
 
 div#menu-wrapper {
     float:left;
-    width:20%;
+    width:230px;
     margin-right:2%;
 }
 
@@ -110,7 +180,7 @@ header#main-site-header {
 }
 
 h1#site-logo a {
-    font-size:3.5em;
+    font-size:1.4em;
     text-decoration:none;
     font-family:eurostile, helvetica, arial, georgia;
     font-weight:bold;
@@ -119,7 +189,7 @@ h1#site-logo a {
 }
 
 header h1 {
-    margin-bottom:4%;
+    margin-bottom:10px;
     width:12%;
 }
 
@@ -128,7 +198,7 @@ header h1 {
 section.contact-info, nav#main-nav ul, section.nav-wrapper { 
     padding-top:4%;
     border-top:1px solid white;
-    margin-bottom:4%;
+    margin-bottom:10px;
 }
 
 section.nav-wrapper {
@@ -139,7 +209,7 @@ section.nav-wrapper {
 section.contact-info {
     font-size:.7em;
     line-height:1.4em;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     font-weight:200;
     color:white;
 }
@@ -147,7 +217,7 @@ section.contact-info {
 nav#main-nav ul li a {
     font-size:1em;
     line-height:1.4em;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     font-weight:500;
     color:white;
     text-decoration:none;
@@ -157,7 +227,7 @@ section.nav-wrapper nav.project-list p{
     font-size:.8em;
     line-height:1.4em;
     margin-bottom:2%;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     font-weight:400;
     color:white;
 }
@@ -165,35 +235,10 @@ section.nav-wrapper nav.project-list p{
 section.nav-wrapper nav.project-list ul li a{
     font-size:.8em;
     line-height:1.4em;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     font-weight:200;
     color:white;
     text-decoration:none;
-}
-
-section#about-me {
-    float:left;
-    width:55%;
-    font-size:1em;
-    line-height:1.4em;
-    font-family:helvetica, arial, georgia;
-    /*font-style:italic;*/
-    font-weight:200;
-    color:white;
-    text-decoration:none;
-}
-
-section#about-me p {
-    margin-bottom:.5em;
-}
-
-section#about-me p#resume {
-    margin-top:2em;
-    font-style:italic;
-}
-
-section#about-me p#resume a {
-    color:white;
 }
 
 /*Nav element selected*/
@@ -201,7 +246,7 @@ section#about-me p#resume a {
 section.nav-wrapper nav.project-list ul li a.project-on {
     font-size:.8em;
     line-height:1.6em;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     font-weight:bold;
     color:white;
 }
@@ -214,32 +259,39 @@ div#portfolio-wrapper {
 
 section.content-description {
     width:50%;
-
 }
 
 section.content-description h1 {
     font-size:.8em;
-    line-height:1.2em;
+    line-height:1.3em;
     color:white;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     font-style:bold;
 }
 
 section.content-description h2 {
     font-size:1em;
-    line-height:1.2em;
+    line-height:1.1em;
     color:white;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     margin-bottom:1%;
-    font-style:bold;
-    
+    font-style:bold;   
+}
+
+section.content-description h3 {
+    font-size:1em;
+    line-height:1.1em;
+    color:white;
+    font-family:helvetica, san-serif;
+    margin-bottom:1%;
+    font-style:italic;   
 }
 
 section.content-description p {
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     color:white;
     font-size:1em;
-    line-height:1.2em;
+    line-height:1.3em;
     margin-bottom:1%;
 }
 
@@ -249,31 +301,33 @@ section.content-description p.copy {
 }
 
 section.content-description p.share {
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     color:white;
     font-size:1em;
-    line-height:1.2em;
+    line-height:1.3em;
     margin-top:3%;
 }
 
 section.content-description a {
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     color:white;
     font-size:1em;
-    line-height:1.2em;
+    line-height:1.3em;
     margin-top:5%;
+    text-decoration:none;
+
 }
 
 nav.project-nav {
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     color:white;
     font-size:1em;
     width:100%;
-    margin-top:.5%;
+    margin-top:1.4%;
 }
 
 nav.project-nav a {
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     color:white;
     font-size:1em;
     line-height:1.4em;
@@ -285,7 +339,7 @@ section.content-description p.share {
 }
 
 section#showhide {
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     color:white;
     font-size:1em;
     width:100%;
@@ -304,60 +358,23 @@ a#hide{
 }
 
 section#footer-info {
-    margin-top:5%;
     padding-top:.5%;
 }
 
 section#footer-info footer {
     font-size:.4em;
     line-height:1.2em;
-    font-family:helvetica, arial, georgia;
+    font-family:helvetica, san-serif;
     font-weight:200;
     color:white;
     text-decoration:none;
 }
 
 section#footer-info footer.copyright {
-    padding-top:3%;
     margin-right:2%;
     margin-bottom:2%;
 }
 
 section#footer-info footer.design {
-    border-top:1px solid white; 
     padding-top:2%;
-}
-
-div.twitter-feed { 
-    width:20%;
-    float:left;
-    margin-right:2%;
-    
-}
-/*Contact Form*/
-label { 
-    display:block;
-    font-size:1em;
-    line-height:1.6em;
-    font-family:helvetica, arial, georgia;
-    color:white;
-}
-
-input, textarea { 
-    display:block; 
-    width:30%;
-}
-    
-div#contact-form {
-    width:100%;
-    height:100%;
-}
-    
-textarea { 
-    width:50%; 
-    height:100px;
-}
-
-div#contact-form {
-    margin-left:2%;
 }

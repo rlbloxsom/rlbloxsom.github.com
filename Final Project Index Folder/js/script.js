@@ -1,6 +1,6 @@
 $(document).ready(function() {
 
-    var rand = Math.ceil(Math.random() * 7	);  
+    var rand = Math.ceil(Math.random() * 4	);  
         
     var randUrl;
     

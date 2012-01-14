@@ -43,7 +43,7 @@ include "incl/head_tag.php";
 
 	<section class='nav-wrapper'>
 		<nav class='project-list'>
-			<p>Project:</p>
+			<p>Projects:</p>
 			<ul>
 				<li><a href='#a' class='project-on'>Healthworks Vitamin Packaging</a></li>
 				<li><a href='index_typeimagebook.php'>Type and Image Book</a></li>
@@ -73,7 +73,7 @@ include "incl/head_tag.php";
 	<div id='portfolio-wrapper' class='clearfix'>
 
  	<section class="content-description" class='clearfix'>
-		<h1>Description:</h1>
+		<h1>Project:</h1>
  		<h2>Healthworks Vitamin Packaging</h2>
 		<h1>Client:</h1>
 		<h2>Graphic Design 3</h2>

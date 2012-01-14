@@ -1,4 +1,3 @@
-/* Meyer Reset */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -49,14 +48,6 @@ table {
 }
 
 
-/* Center Content */
-
-.centered { 
-  margin:0 auto;
-  width:960px;
-}
-
-
 /* Clearfix */
 .clearfix:after {
 	content: ".";
@@ -75,287 +66,253 @@ html[xmlns] .clearfix { display: block; }
 
 
 /*begin base CSS*/
-body {
-    background-color:black; 
-    background-image:   ;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -moz-background-size: cover;
+
+@font-face {
+    font-family: 'LektonRegular';
+    src: url('Lekton-Regular-webfont.eot');
+    src: url('Lekton-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lekton-Regular-webfont.woff') format('woff'),
+         url('Lekton-Regular-webfont.ttf') format('truetype'),
+         url('Lekton-Regular-webfont.svg#LektonRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
-div#site-wrapper {
-    margin-left:1.25%;
-    margin-top:1.25%;
-    max-width:1280px;
-    min-width:768px;
-}
-
-div#menu-wrapper {
-    float:left;
-    width:20%;
-    margin-right:2%;
-}
-
-header#main-site-header {
-    width:20%;
-}
-
-div#site-wrapper>section.contact-info {
-	display:none;
-}
-
-h1#site-logo a {
-    font-size:3.5em;
-    text-decoration:none;
-    font-family:eurostile, helvetica, arial, georgia;
-    font-weight:bold;
-    line-height:.85em;
-    color:white;
-}
-
-header h1 {
-    margin-bottom:4%;
-    width:12%;
-}
-
-/*location and border controls for all menu frames*/
-
-section.contact-info, nav#main-nav ul, section.nav-wrapper { 
-    padding-top:2%;
-    border-top:1px solid white;
-    margin-bottom:2%;
-}
-
-section.nav-wrapper {
-	border-bottom:1px solid white;
-	padding-bottom:4%;
-}
-
-section.contact-info {
-    font-size:.7em;
-    line-height:1.4em;
-    font-family:helvetica, arial, georgia;
-    font-weight:200;
-    color:white;
-}
-
-nav#main-nav ul li a {
-    font-size:1em;
-    line-height:1.4em;
-    font-family:helvetica, arial, georgia;
-    font-weight:500;
-    color:white;
-    text-decoration:none;
-}
-
-section.nav-wrapper nav.project-list p{
-    font-size:.8em;
-    line-height:1.4em;
-    margin-bottom:2%;
-    font-family:helvetica, arial, georgia;
-    font-weight:400;
-    color:white;
-}
-
-section.nav-wrapper nav.project-list ul li a{
-    font-size:.8em;
-    line-height:1.4em;
-    font-family:helvetica, arial, georgia;
-    font-weight:200;
-    color:white;
-    text-decoration:none;
-}
-
-section#about-me {
-    float:left;
-    width:55%;
-    font-size:1em;
-    line-height:1.4em;
-    font-family:helvetica, arial, georgia;
-    /*font-style:italic;*/
-    font-weight:200;
-    color:white;
-    text-decoration:none;
-}
-
-section#about-me p {
-    margin-bottom:.5em;
-}
-
-section#about-me p#resume {
-    margin-top:2em;
-    font-style:italic;
-}
-
-section#about-me p#resume a {
-    color:white;
-}
-
-/*Nav element selected*/
-
-section.nav-wrapper nav.project-list ul li a.project-on {
-    font-size:.8em;
-    line-height:1.6em;
-    font-family:helvetica, arial, georgia;
-    font-weight:bold;
-    color:white;
-}
-
-div#portfolio-wrapper {
-    width:70%;
-    display:block;
-    float:left;
-}
-
-section.content-description {
-    width:50%;
+@font-face {
+    font-family: 'LektonItalic';
+    src: url('Lekton-Italic-webfont.eot');
+    src: url('Lekton-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lekton-Italic-webfont.woff') format('woff'),
+         url('Lekton-Italic-webfont.ttf') format('truetype'),
+         url('Lekton-Italic-webfont.svg#LektonItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
-section.content-description h1 {
-    font-size:.8em;
-    line-height:1.2em;
-    color:white;
-    font-family:helvetica, arial, georgia;
-    font-style:bold;
-}
-
-section.content-description h2 {
-    font-size:1em;
-    line-height:1.2em;
-    color:white;
-    font-family:helvetica, arial, georgia;
-    margin-bottom:1%;
-    font-style:bold;
-    
-}
-
-section.content-description p {
-    font-family:helvetica, arial, georgia;
-    color:white;
-    font-size:1em;
-    line-height:1.2em;
-    margin-bottom:1%;
-}
-
-section.content-description p.copy {
-    font-size:1em;
-    margin-top:3%;
-}
-
-section.content-description p.share {
-    font-family:helvetica, arial, georgia;
-    color:white;
-    font-size:1em;
-    line-height:1.2em;
-    margin-top:3%;
-}
-
-section.content-description a {
-    font-family:helvetica, arial, georgia;
-    color:white;
-    font-size:1em;
-    line-height:1.2em;
-    margin-top:5%;
-}
-
-nav.project-nav {
-    font-family:helvetica, arial, georgia;
-    color:white;
-    font-size:1em;
-    width:100%;
-    margin-top:.5%;
-}
-
-nav.project-nav a {
-    font-family:helvetica, arial, georgia;
-    color:white;
-    font-size:1em;
-    line-height:1.4em;
-    text-decoration:none;
-}
-
-section.content-description p.share {
-    font-size:1em;
-}
-
-section#showhide {
-    font-family:helvetica, arial, georgia;
-    color:white;
-    font-size:1em;
-    width:100%;
-}
-
-a#show {
-    display:none;
-    text-decoration:none;
-    color:white;
-}
-
-a#hide{
-    text-decoration:none;
-    color:white;
+@font-face {
+    font-family: 'LektonBold';
+    src: url('Lekton-Bold-webfont.eot');
+    src: url('Lekton-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Lekton-Bold-webfont.woff') format('woff'),
+         url('Lekton-Bold-webfont.ttf') format('truetype'),
+         url('Lekton-Bold-webfont.svg#LektonBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
 
 }
 
-section#footer-info {
-    padding-top:.5%;
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('inconsolata.otf');
+    font-weight: normal;
+    font-style: normal;
 }
 
-section#footer-info footer {
-    font-size:.4em;
-    line-height:1.2em;
-    font-family:helvetica, arial, georgia;
-    font-weight:200;
-    color:white;
-    text-decoration:none;
-}
+/*BODY AND OVERALL CONTENT SETTINGS*/
 
-section#footer-info footer.copyright {
-    margin-right:2%;
-    margin-bottom:2%;
-}
-
-section#footer-info footer.design {
-    padding-top:2%;
-}
-
-div.twitter-feed { 
-    width:20%;
-    float:left;
-    margin-right:2%;
-    
-}
-/*Contact Form*/
-label { 
-    display:block;
-    font-size:1em;
-    line-height:1.6em;
-    font-family:helvetica, arial, georgia;
-    color:white;
-}
-
-input, textarea { 
-    display:block; 
-    width:30%;
-}
-    
-div#contact-form {
-    width:100%;
-    height:100%;
-}
-    
-textarea { 
-    height:10em;
-}
-
-div#contact-form {
-    margin-left:2%;
-}
-
-header section.contact-info {
-	display:none;
+	body {
+		z-index:-1;
+		background-color:black;
+    	background-image:   ;
+    	background-attachment: fixed;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+    	-moz-background-size: cover;
 	}
 
+	div#site-wrapper {
+    	margin-left:1%;
+    	margin-top:1%;
+    	max-width:960px;
+    	min-width:360px;
+	}
+
+	img {
+		position:fixed; 
+		bottom:0;
+		left:0;
+		z-index:-1;
+	}
+
+	a, p, h1, h2, h3, section, footer, header, nav, div {
+		font-family:inconsolata, courier new, san serif;
+		color:white;
+		text-decoration:none;
+		word-spacing:-.12em;
+		line-height:1.18em;
+		font-size:1.02em;
+	}
+
+	a:hover {
+		background-color:yellow;
+		color:black;
+		border-radius:8px;
+		padding:0 1.2% 0 1.2%;
+		margin:0 .2% .2% 0;
+	}
+	
+	a.no-hover {
+		border-radius:0px;
+		padding:0 0 0 0%;
+		margin:0 0 0 0;
+		background-color:transparent;
+		color:white;
+	}
+	
+	.hide {
+		display:none;
+	}
+	
+	.page-on{
+		background-color:lightgrey;
+		color:white;
+		border-radius:8px;
+		padding:0 1.2% 0 1.2%;
+		margin:0 .2% .2% 0;	
+	}
+
+/*HEADER CONTENT*/
+
+	header#main-site-header a p {
+		margin-bottom:.5%;
+		border-bottom:2px solid yellow;
+		width:30%;
+	}
+
+	section.contact-info {
+		margin-bottom:.5%;
+	}
+	
+/*MENU CONTENT*/	
+	
+	div#menu-wrapper {
+		width:37%;
+		margin:0 3% 3% 0;
+		float:left;
+	}
+
+	nav#main-nav {
+		margin-bottom:3%;
+		font-style:italic;
+	}
+	
+	nav.project-list ul li {
+		padding:0 1% 0 1%;
+		margin:0 .2% .2% 0;
+	}
+
+	section.contact-info {
+		margin-bottom:3%;	
+	}
+		
+/*ABOUT PAGE BODY CONTENT*/
+
+	section#about-me {
+		width:50%;
+		float:left;
+	}
+	
+	p#resume {
+		margin-top:2%;
+	}
+
+	p#resume a {
+		text-decoration:underline;
+	}
+
+/*FOOTER CONTENT*/
+	footer {
+		margin-top:2%;
+		font-style:italic;
+	}
+
+/*CONTACT FORM CONTENT*/
+	label { 
+    	display:block;
+    	font-size:1em;
+    	line-height:1.6em;
+    	font-family:courier new, arial, georgia;
+    	color:white;
+	}
+
+	input, textarea { 
+    	display:block; 
+    	width:350px;
+	}
+    
+	div#contact-form {
+    	width:100%;
+    	height:100%;
+	}
+    
+	textarea { 
+    	height:10em;
+	}
+
+	div#contact-form {
+	}
+
+
+/*MEDIA QUERIES*/
+
+@media all and (max-width:768px) {
+
+/*HEADER CONTENT*/
+
+	header#main-site-header h1#site-logo a p {
+		margin-bottom:.5%;
+		border-bottom:1px solid yellow;
+		width:99%;
+		text-decoration:none;
+	}
+
+/*BODY AND OVERALL CONTENT SETTINGS*/
+
+	div#site-wrapper {
+    	margin:3% 3% 3% 3% ;
+	}
+	
+	.hide {
+		display:block;
+	}
+	
+	a, p, h1, h2, h3, section, footer, header, nav, div {
+		font-family:inconsolata, courier new, san serif;
+		color:white;
+		text-decoration:none;
+		word-spacing:-.12em;
+		line-height:1.2em;
+		font-size:.99em;
+	}
+
+/*MENU CONTENT*/	
+	
+	div#menu-wrapper {
+		width:99%;
+		margin:0 0 3% 0;
+	}
+
+	nav#main-nav {
+		margin-bottom:3%;
+	}
+	
+	nav.project-list ul li {
+		padding:0 1% 0 0;
+		margin:0 .2% .2% 0;
+	}
+
+	section.contact-info {
+		margin-bottom:3%;	
+	}
+
+/*BODY CONTENT*/	
+
+	section#about-me {
+		width:100%;
+		float:none;
+	}
+	
+	
+}

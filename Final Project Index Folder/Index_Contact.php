@@ -11,7 +11,7 @@ include "incl/head.php";
 	
 	<section class='nav-wrapper'>
 		<nav class='project-list'>
-			<p>Project:</p>
+			<p>Projects:</p>
 			<ul>
 				<li><a href='Index_Vitamin.php'>Healthworks Vitamin Packaging</a></li>
 				<li><a href='Index_TypeImageBook.php'>Type and Image Book</a></li>
@@ -28,38 +28,17 @@ include "incl/head.php";
 		</nav>
 	</section>
 	
-<section id='footer-info'>		
-		<footer class='copyright'>
-			<p>images and copy by Ricky Bloxsom</p>
-			<p>copyright &copy;2011 Ricky Bloxsom</p>
-		</footer>
-	</section>
-	
 	</div> <!--End Menu Wrapper-->
 	
-<!-- Contact Form-->
- <div id="contact-form">    
-
-<form id="contact" method="post" action="">
-<fieldset>    
-
-	<label for="name">Name</label>
-	<input type="text" name="name" placeholder="Full Name">
-
-	<label for="email">E-mail</label>
-	<input type="email" name="email" placeholder="Your Email Address Here">
-
-	<label for="phone">Message</label>
-	<textarea name="message" placeholder="enter your message"></textarea>
-
-
-<input type="submit" name="submit" id="submit" value="Send Message" />
-
-</fieldset>
-</form>
-
-</div>
-<!--End Contact Form-->
+<p>Ricky Bloxsom</p>
+<p>177 Heath St</p>
+<p>Apartment 1</p>
+<p>Jamaica Plain, MA 02130</p>
+<p>&#8212;</p>
+<p>To work with me:</p>
+<p>New business and general inquiries-studio.rickybloxsom.com</p>
+<p>Find me—Google map link</p>
+<p>Follow me—Twitter</p>
 
 
 <?php

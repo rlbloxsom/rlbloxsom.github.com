@@ -14,7 +14,7 @@
   var position = 1;
  </script>
  
-  <script src='js/cycle_plugin.js'></script>
+  <!--<script src='js/cycle_plugin.js'></script>-->
   <script src='js/portfolio_script.js'></script>
   
 </head>
@@ -44,7 +44,7 @@ include "incl/head_tag.php";
 
 	<section class='nav-wrapper'>
 		<nav class='project-list'>
-			<p>Project:</p>
+			<p>Projects:</p>
 			<ul>
 				<li><a href='Index_Vitamin.php'>Healthworks Vitamin Packaging</a></li>
 				<li><a href='index_typeimagebook.php'>Type and Image Book</a></li>
@@ -74,7 +74,7 @@ include "incl/head_tag.php";
 	<div id='portfolio-wrapper' class='clearfix'>
 
  	<section class="content-description" class='clearfix'>
-		<h1>Description:</h1>
+		<h1>Project:</h1>
  		<h2>Common Ground Conference-Poster and Branding</h2>
 		<h1>Client:</h1>
 		<h2>Graphic Design 4</h2>

@@ -4,7 +4,7 @@
 	<meta charset="UTF-8"/>
 	<meta name='viewport' content='initial-scale=1.0, width-device-width' />
 	
-	<title>Portfolio-Ricky Bloxsom</title>
+	<title>Ricky Bloxsom-Graphic Design</title>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -14,30 +14,22 @@
 </head>
 
 <body> <!--contain image-->
-<div id='bgimage'>
+	<!--<img src='images/bgimages/bg4.jpg'>--!>
 
+<div id='bgimage'>
+	
 <div id='site-wrapper'>
 	<header id='main-site-header'>
-		<h1 id='site-logo'>
-			<a href='index.php'>
-				<p></p>
-				<p>EQUALS</p>
-				<p>=</p>
-			</a>
-		</h1>
-		
+		<a class='no-hover' href='index.php' >
+			<p>Ricky Bloxsom</p>
+		</a>
 	</header>
-	<section class='contact-info'>
-				<p>w:617.555.5555</p>
-				<p>c:860.459.8124</p>
-				<p>e:studio@rickybloxsom.com</p>
-	</section>
 		
 	<div id='menu-wrapper' class='clearfix'>
 		<section class='contact-info'>
 				<p>w:617.555.5555</p>
 				<p>c:860.459.8124</p>
-				<p>e:studio@rickybloxsom.com</p>
+				<a class='no-hover' href="mailto:studio@rickybloxsom.com">e:studio@rickybloxsom.com</a>
 		</section>
 	
 	

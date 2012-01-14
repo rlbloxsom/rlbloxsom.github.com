@@ -11,7 +11,7 @@ include "incl/head.php";
 	
 	<section class='nav-wrapper'>
 		<nav class='project-list'>
-		    <p>Project:<p>
+		    <p>Projects:<p>
 			<ul>
 				<li><a href='Index_Vitamin.php'>Healthworks Vitamin Packaging</a></li>
 				<li><a href='Index_TypeImageBook.php'>Type and Image Book</a></li>
@@ -26,52 +26,8 @@ include "incl/head.php";
 			</ul>
 		</nav>
 	</section>
-	
-	
-	
-	<section id='footer-info'>		
-		<footer class='copyright'>
-			<p>images and copy by Ricky Bloxsom</p>
-			<p>copyright &copy;2011 Ricky Bloxsom</p>
-		</footer>
-	</section>
+
 </div> <!--End Menu Wrapper-->
-
-<!--
-<div class='twitter-feed'>
-
-<script src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script>
-new TWTR.Widget({
-  version: 2,
-  type: 'list',
-  rpp: 30,
-  interval: 30000,
-  title: 'Keeping Up',
-  subject: 'Graphic Design Feed',
-  width: 'auto',
-  height: 300,
-  theme: {
-    shell: {
-      background: '#ffffff',
-      color: '#707070'
-    },
-    tweets: {
-      background: '#707070',
-      color: '#ffffff',
-      links: '#ffffff'
-    }
-  },
-  features: {
-    scrollbar: true,
-    loop: false,
-    live: true,
-    behavior: 'all'
-  }
-}).render().setList('rickybloxsom', 'design').start();
-</script>
-</div>
--->
 
 <?php
 include "incl/closehtml.php";

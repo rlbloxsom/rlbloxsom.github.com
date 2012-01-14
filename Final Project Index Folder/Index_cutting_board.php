@@ -14,20 +14,20 @@
   var position = 1;
  </script>
  
-  <script src='js/cycle_plugin.js'></script>
+  <!--<script src='js/cycle_plugin.js'></script>-->
   <script src='js/portfolio_script.js'></script>
 </head>
 
 <body> <!--contain image-->
-	<div id='bgimage'>
-		<img src="portfolioimages/cuttingboard/bg1.jpg" style="top: 0px; left: 0px; z-index: -1;">
-		<img src="portfolioimages/cuttingboard/bg2.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
-		<img src="portfolioimages/cuttingboard/bg3.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
-		<img src="portfolioimages/cuttingboard/bg4.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
-		<img src="portfolioimages/cuttingboard/bg5.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
-		<img src="portfolioimages/cuttingboard/bg6.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
-		<img src="portfolioimages/cuttingboard/bg7.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
-		<img src="portfolioimages/cuttingboard/bg8.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; display: none;">
+	<div id='bgimage' class='info-on'>
+	<img class="first" src="portfolioimages/cuttingboard/bg1.jpg">
+		<img src="portfolioimages/cuttingboard/bg2.jpg">
+		<img src="portfolioimages/cuttingboard/bg3.jpg">
+		<img src="portfolioimages/cuttingboard/bg4.jpg">
+		<img src="portfolioimages/cuttingboard/bg5.jpg">
+		<img src="portfolioimages/cuttingboard/bg6.jpg">
+		<img src="portfolioimages/cuttingboard/bg7.jpg">
+		<img src="portfolioimages/cuttingboard/bg8.jpg">
 
 	</div>
 
@@ -51,7 +51,7 @@ include "incl/head_tag.php";
 
 	<section class='nav-wrapper'>
 		<nav class='project-list'>
-			<p>Project:</p>
+			<p>Projects:</p>
 			<ul>
 				<li><a href='Index_Vitamin.php'>Healthworks Vitamin Packaging</a></li>
 				<li><a href='index_typeimagebook.php'>Type and Image Book</a></li>
@@ -82,7 +82,7 @@ include "incl/head_tag.php";
 	<div id='portfolio-wrapper' class='clearfix'>
 
  	<section class="content-description" class='clearfix'>
-		<h1>Description:</h1>
+		<h1>Project:</h1>
  		<h2>Cutting Board Magazine Identity and Design</h2>
 		<h1>Client:</h1>
 		<h2>Graphic Design 3</h2>

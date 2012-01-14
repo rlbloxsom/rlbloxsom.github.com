@@ -13,19 +13,19 @@
   var base= "citygauge";
   var position = 1;
  </script>
-  <script src='js/cycle_plugin.js'></script>
+  <!--<script src='js/cycle_plugin.js'></script>-->
   <script src='js/portfolio_script.js'></script>
   
 </head>
 
 <body> <!--contain image-->
-	<div id='bgimage'>
-		<!--<img src="portfolioimages/citygauge/bg1.jpg" style="top: 0px; left: 0px; opacity: 1; z-index: -1;">
-		<img src="portfolioimages/citygauge/bg2.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/citygauge/bg3.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/citygauge/bg4.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/citygauge/bg5.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">
-		<img src="portfolioimages/citygauge/bg6.jpg" style="top: 0px; left: 0px; z-index: -1; position: absolute; opacity: 0; display: none;">-->
+	<!--<div id='bgimage' class='info-on'>
+	<img class="first" src="portfolioimages/citygauge/bg1.jpg">
+		<img src="portfolioimages/citygauge/bg2.jpg">
+		<img src="portfolioimages/citygauge/bg3.jpg">
+		<img src="portfolioimages/citygauge/bg4.jpg">
+		<img src="portfolioimages/citygauge/bg5.jpg">
+		<img src="portfolioimages/citygauge/bg6.jpg">-->
 	</div>
 
 <?php
@@ -79,7 +79,7 @@ include "incl/head_tag.php";
 	<div id='portfolio-wrapper' class='clearfix'>
 
  	<section class="content-description" class='clearfix'>
-		<h1>Description:</h1>
+		<h1>Project:</h1>
  		<h2>CityGauge</h2>
 		<h1>Client:</h1>
 		<h2>Sasaki Associates</h2>

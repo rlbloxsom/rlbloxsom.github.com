@@ -1,10 +1,8 @@
 <div id='site-wrapper'>
-	<header id='main-site-header'>
+	<header id='main-site-header' class='nohover'>
 		<h1 id='site-logo'>
 			<a href='index.php'>
-				<p></p>
-				<p>EQUALS</p>
-				<p>=</p>
+				<p>Ricky Bloxsom</p>
 			</a>
 		</h1>
 </header>
