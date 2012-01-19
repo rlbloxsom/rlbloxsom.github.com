@@ -2,13 +2,16 @@
 include "incl/head.php";
 ?>
 
+
+	<p class='hide'>&#8212;</p>
 	<nav id='main-nav'>
   	  	<ul>
 			<li><a href='index_about.php'>About</a></li>
 			<li><a href='index_contact.php'>Contact</a></li>
 		</ul>
 	</nav>
-	
+	<p class='hide'>&#8212;</p>
+
 	<section class='nav-wrapper'>
 		<nav class='project-list'>
 		    <p>Projects:<p>
@@ -16,10 +19,10 @@ include "incl/head.php";
 				<li><a href='Index_Vitamin.php'>Healthworks Vitamin Packaging</a></li>
 				<li><a href='Index_TypeImageBook.php'>Type and Image Book</a></li>
 				<li><a href='Index_Mediaandpolitics.php'>Media and Politics Conference</a></li>
-				<li><a href='Index_themeal.php'>“The Meal” Recipes and Packaging</a></li>
+				<li><a href='Index_themeal.php'>“The Meal” Recipes</a></li>
 				<li><a href='Index_unnatural.php'>UnNatural Calendar</a></li>
 				<li><a href='Index_commonground.php'>Common Ground 12 Branding</a></li>
-				<li><a href='Index_runlola.php'>Run Lola Run Interface and Taxonomy</a></li>
+				<li><a href='Index_runlola.php'>Run Lola Run Analysis</a></li>
 				<li><a href='Index_citygauge.php'>CityGauge Interface</a></li>
 				<li><a href='Index_bridgeportmasterplan.php'>Bridgeport Parks Masterplan</a></li>
 				<li><a href='Index_cutting_board.php'>Cutting Board Magazine</a></li>

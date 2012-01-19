@@ -2,13 +2,15 @@
 include "incl/head.php";
 ?>
 
+	<p class='hide'>&#8212;&#8212;</p>
 	<nav id='main-nav'>
   	  	<ul>
 			<li><a href='index_about.php'>About</a></li>
 			<li><a class='page-on' href='index_contact.php'>Contact</a></li>
 		</ul>
 	</nav>
-	
+	<p class='hide'>&#8212;&#8212;</p>
+
 	<section class='nav-wrapper'>
 		<nav class='project-list'>
 			<p>Projects:</p>
@@ -32,6 +34,7 @@ include "incl/head.php";
 	<div id='contact-info'>
 	    <p class='hide'>&#8212;&#8212;</p>	
         <p>Have a project that needs completing? Looking for a consultation? Want to work together? Want me to interview? Here are the best ways to contact me. I check them all regularly so if you don't get ahold of me immediately, I will be sure to get right back to you.</p>
+        <p>&#8212;</p>
         <section id='contact-content'>        
             <p>Ricky Bloxsom</p>
             <p>177 Heath St</p>
@@ -43,7 +46,7 @@ include "incl/head.php";
             <p>New business/general inquiries-<a href="mailto:studio@rickybloxsom.com">studio@rickybloxsom.com</a></p>
             <p>work phone:860.459.8124</p>
             <p>cell phone:860.459.8124</p>
-            
+        </section>
         <section id='contact-content'>
             <p>Find me—<a target=”_blank” href='http://maps.google.com/?q=177%20heath%20st,%20jamaica%20plain,%20ma,%0202130'>Google maps</a></p>
             <p>Follow me—<a target=”_blank” href='http://www.twitter.com/rickybloxsom'>Twitter</a></p>

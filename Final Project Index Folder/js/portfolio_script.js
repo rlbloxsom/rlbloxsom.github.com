@@ -71,7 +71,7 @@ $(document).ready(function() {
 		
 	
 	$("a#hide").click(function(){
-        $("section.content-description,div#menu-wrapper").hide(340);
+        $("section.content-description,section.content,div#menu-wrapper").hide(340);
         $("a#hide").hide(0);
         $("a#show").show(0);
         
@@ -82,7 +82,7 @@ $(document).ready(function() {
     });
     
     $("a#show").click(function(){ 
-        $("section.content-description,div#menu-wrapper").show(340);
+        $("section.content-description,section.content,div#menu-wrapper").show(340);
         $("a#hide").show(0);
         $("a#show").hide(0);
         
